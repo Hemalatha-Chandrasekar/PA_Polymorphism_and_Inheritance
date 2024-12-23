@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
+// StoneMonster.java
+public class StoneMonster extends Monster {
+    public StoneMonster(String name) {
+        super(name);
+    }
 
-public class StoneMonster {
+    @Override
+    public String attack() {
+        return "Attack with stones!";
+    }
 }
